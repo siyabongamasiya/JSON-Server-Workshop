@@ -8,3 +8,11 @@ async function getUser() {
 }
 
 getUser()
+
+let root = document.getElementById("") as HTMLElement
+function noCharacterData(rootElement: HTMLElement,message : string) : void {
+  rootElement.innerHTML = message  
+}
+
+noCharacterData(root,"no characters to display")
+

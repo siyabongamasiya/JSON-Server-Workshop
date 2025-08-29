@@ -18,3 +18,8 @@ function getUser() {
     });
 }
 getUser();
+let root = document.getElementById("");
+function noCharacterData(rootElement, message) {
+    rootElement.innerHTML = message;
+}
+noCharacterData(root, "no characters to display");
